@@ -1,0 +1,36 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: darkslategrey;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+
+.foto {
+    border: 5px solid black;
+    padding: 2px;
+}
+
+h2 {
+    color: darkred;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin: 0;
+}
